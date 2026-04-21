@@ -1,0 +1,7 @@
+/*Avoid using fixed units like px, cm, mm, etc and use relative units like 
+rem, %, em, etc so the game is responsive on a different screen (Like Macbook air, etc)
+
+Use clamp(x, calc(), y) for the headings rather than using rem or em so the heading looks good on big
+screens such as 4K monitor
+
+Use max-width: 100% and height: auto for responsive images*/
